@@ -42,7 +42,7 @@ public class MovieService {
         movieRepository.deleteDirector(director);
     }
 //9
-    public void deleteAllDirector(){
+    public void deleteAllDirectors(){
         movieRepository.deleteAllDirector();
     }
 }
